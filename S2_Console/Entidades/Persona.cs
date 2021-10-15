@@ -14,7 +14,7 @@ namespace S2_Console.Entidades
             set;
         }
 
-        public string nombrecCompleto { get; set; }
+        public string nombreCompleto { get; set; }
 
         public int telefono { get; set; }
 
@@ -26,7 +26,7 @@ namespace S2_Console.Entidades
         public Persona(string dni, string nombreCompleto, int telefono)
         {
             this.dni = dni;
-            this.nombrecCompleto = nombrecCompleto;
+            this.nombreCompleto = nombreCompleto;
             this.telefono = telefono;
         }
     
